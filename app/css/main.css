@@ -35,6 +35,15 @@ body {
   font-family: "Roboto-Medium", sans-serif;
   padding-top: 6px; }
 
+.angl_dow {
+  width: 14px !important;
+  margin-left: 15px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  float: right;
+  margin-top: 10px; }
+
 header {
   height: 80px;
   padding-top: 25px; }
@@ -73,6 +82,8 @@ header {
   float: right; }
   .my_acc .my_acc_img {
     float: right; }
+  .my_acc .angl_dow {
+    margin-top: 20px; }
   .my_acc i {
     float: right;
     margin-top: 15px;
@@ -442,24 +453,28 @@ header {
   .main_pagination .active_pagination {
     background-color: #366cf7;
     color: #fff; }
+  .main_pagination .main_pagination_prev .angl_dow {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .main_pagination .main_pagination_next .angl_dow {
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
   .main_pagination div {
     -webkit-border-radius: 5px;
             border-radius: 5px;
-    padding: 2px 10px;
     margin: 0 3px;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s; }
+    .main_pagination div img {
+      margin: 0; }
     .main_pagination div:hover {
-      color: #fff;
-      background-color: #366cf7;
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1);
       cursor: pointer; }
-    .main_pagination div:hover i {
-      color: #fff; }
-    .main_pagination div i {
-      font-size: 1.4em;
-      color: #999999;
-      margin-top: 2px; }
   .main_pagination ul {
     margin: 0;
     padding: 0; }
@@ -469,7 +484,7 @@ header {
       padding: 4px 10px;
       -webkit-border-radius: 5px;
               border-radius: 5px;
-      margin: 0 3px;
+      margin: 0 5.5px;
       color: #999999;
       -webkit-transition: .3s;
       -o-transition: .3s;

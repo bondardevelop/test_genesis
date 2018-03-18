@@ -47,6 +47,14 @@ body{
 	padding-top: 6px;
 }
 
+.angl_dow{
+	width: 14px!important;
+	margin-left: 15px;
+	transition: all .3s;
+	float: right;
+	margin-top: 10px;
+}
+
 header{
 	height: 80px;
 	padding-top: 25px;
@@ -91,6 +99,9 @@ header{
 	float: right;
 	.my_acc_img{
 		float: right;
+	}
+	.angl_dow{
+		margin-top: 20px;
 	}
 		i{
 		float: right;
@@ -497,23 +508,26 @@ header{
 		background-color: $blue;
 		color: #fff;
 	}
+	.main_pagination_prev{
+		.angl_dow{
+			transform: rotate(90deg);
+		}
+	}
+	.main_pagination_next{
+		.angl_dow{
+			transform: rotate(-90deg);
+		}
+	}
 	div{		
-		border-radius: 5px;
-		padding: 2px 10px;
+		border-radius: 5px;		
 		margin: 0 3px;
 		transition: .3s;
-		&:hover{
-			color: #fff;
-			background-color: $blue;
+		img{
+			margin: 0;
+		}
+		&:hover{			
+			transform: scale(1.1);
 			cursor: pointer;
-		}
-		&:hover i{
-			color: #fff;			
-		}
-		i{			
-			font-size: 1.4em;
-			color: #999999;
-			margin-top: 2px;
 		}
 	}
 	ul{
@@ -524,7 +538,7 @@ header{
 			display: inline-block;
 			padding: 4px 10px;
 			border-radius: 5px;
-			margin: 0 3px;
+			margin: 0 5.5px;
 			color: #999999;
 			transition: .3s;
 			&:hover{
