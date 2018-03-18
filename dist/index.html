@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru" class="no-js"> <!--<![endif]-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Bondar test</title>
+  <link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+	<header class="fix_wrapp">
+		<div class="row">
+
+			<div class="logo_wrap col-xs-2 col-sm-2 col-md-2">
+				<div class="logo">
+					<img src="img/logo.png" alt="logo">
+				</div>
+			</div>
+      <div class="menu" id="menu">Меню</div>
+			<div class="toggle_menu col-md-6">
+				<nav>
+					<ul>
+						<li><a href="#">Поиск</a></li>
+						<li><a href="#">Мои переписки</a></li>
+						<li><a href="#">Избранное</a></li>
+						<li><a href="#">Кто смотрел</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="account col-md-4">
+				<div class="my_acc">
+					<i class="fa fa-angle-down" aria-hidden="true"></i>
+					<div class="my_acc_img">
+						<img src="img/small_avatar.png" alt="avatar">
+					</div>
+
+					<div class="clearfix"></div>
+				</div>
+				<div class="header_right_nav">
+					<ul>
+						<li><a href="#">Премиум</a><img src="img/info.png" alt="info"></li>
+						<li><a href="#">100 Кредитов</a></li>
+					</ul>
+				</div>				
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</header>
+
+	<div class="top_girls">
+		<div class="top_girls_inner fix_wrapp">
+			<div class="top_girls_item">
+				<img src="img/first.png" alt="Amanda">
+			</div>
+			<div class="top_girls_item">
+				<img src="img/girl2.png" alt="Lilia">
+			</div>
+			<div class="top_girls_item">
+				<img src="img/girl3.png" alt="Amanda">
+			</div>
+			<div class="top_girls_item">
+				<img src="img/girl4.png" alt="Lesya">
+			</div>
+			<div class="hidden_768 top_girls_item">
+				<img src="img/girl5.png" alt="Olya">
+			</div>
+			<div class="hidden_768 top_girls_item">
+				<img src="img/girl6.png" alt="Vika">
+			</div>
+			<div class="hidden_768 top_girls_item">
+				<img src="img/girl7.png" alt="Sara">
+			</div>
+			<div class="hidden_768 top_girls_item">
+				<img src="img/girl8.png" alt="Monica">
+			</div>
+			<div class="clear"></div>			
+		</div>
+	</div>
+
+	<div class="search_wrapper">
+		<div class="search_inner fix_wrapp">
+			<div class="search_title">
+				Я ищу				
+			</div>
+			<div class="search_main">
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+						<div class="select_wrapper">
+							<select>
+								<option value="Девушку">Девушку</option>
+								<option value="Девушку">Девушку</option>
+								<option value="Парня">Парня</option>
+								<option value="Дедушку">Дедушку</option>
+								<option value="Бабушку">Бабушку</option>
+							</select>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+						</div>
+						<div class="type_of_city">
+							<div class="city_item">
+								<div class="city_item_text">
+									Саткт-Пеербург
+								</div>		
+								<div class="city_item_img">
+									<img src="img/close.png" alt="close">
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-12 col-md-6">
+
+						<div class="from_to">
+							<div class="from_to_text">Возраст</div>
+							<div id="slider-range"></div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="find">
+							<a href="#">Найти</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="search_more_wrapper">
+			<div class="search_more_inner fix_wrapp">
+				<a id="togl_button" >Расширеный поиск<img src="img/arrow_down.png" alt="arrow"></a>					
+			</div>	
+			<div class="search_more_hide">
+				<div class="fix_wrapp search_more_inside">
+					<h3>Her can be more filters</h3>
+				</div>
+			</div>		
+		</div>
+
+	</div>
+
+	<div class="main_wrapper">
+		<div class="main_inner fix_wrapp">
+			<div class="main_buttons">
+				<a href="#">Онлайн</a>
+				<a class="active" href="#">Новые</a>
+				<a href="#">Популярные</a>	
+				<div class="clearfix"></div>			
+			</div>
+			<div class="main_girls">
+
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl1.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>12</span>
+								</div>
+								<div class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Кристиночка, 28</span><span class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Санкт-Петербург, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl2.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>3</span>
+								</div>
+								<div class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Диана, 20</span><span class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Самара, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl3.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>145</span>
+								</div>
+								<div class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Аня, 18</span><span class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Ростов-на-Дону, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl4.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>17</span>
+								</div>
+								<div style="display:none" class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Анжелика, 27</span><span style="display:none" class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Чебоксары, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl5.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>12</span>
+								</div>
+								<div style="display:none" class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Лариса, 32</span><span style="display:none" class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Москва, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+           
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl6.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>3</span>
+								</div>
+								<div style="display:none" class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Настя, 21</span><span style="display:none" class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Зеленоград, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl7.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>4</span>
+								</div>
+								<div class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Евгения, 30</span><span style="display:none" class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Ростов-на-Дону, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="girls_item">
+							<div class="girls_item_img">
+								<img src="img/maingirl8.jpg" alt="">
+								<div class="girls_item_buttons">
+									<a href="#"><img class="star" src="img/star.png" alt="star"><img class="star_active" src="img/star_active.png" alt="">Избранное</a>
+									<a href="#"><img class="star" src="img/envelop.png" alt="star">Написать</a>
+									<div class="clearfix"></div>
+								</div>
+								<div class="girls_item_camera">
+									<img src="img/camera.png" alt="camera">
+									<span>28</span>
+								</div>
+								<div style="display:none" class="girls_item_top">
+									ТОП
+								</div>
+							</div>
+							<div class="girls_item_description">
+								<div class="girls_item_description_title">
+									<span>Ольга, 25</span><span style="display:none" class="online"></span>
+								</div>
+								<div class="girls_item_description_city">
+									<span>Казань, Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_pagination">
+				<div class="main_pagination_prev">
+					<i class="fa fa-angle-left" aria-hidden="true"></i>
+				</div>
+				<ul>
+					<li class="active_pagination">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+				</ul>
+				<div class="main_pagination_next">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer_wrapp fix_wrapp">
+			<div class="footer_nav">
+				<ul>				
+					<li><a href="#">Правила</a></li>
+					<li><a href="#">Пользовательское соглашение</a></li>
+					<li><a href="#">О проекте</a></li>
+					<li><a href="#">Обратная связь</a></li>				
+				</ul>
+			</div>
+			<div class="footer_description">
+				<p>&#169;«KIKI». Лучший on-line сервис по поиску спонсоров и содержанок, 2015-2017</p>
+				<p>Администрация не несёт ответственности за   размещённые анкеты. Вся информация на сайте предоставлена   посетителями. </p>
+			</div>
+		</div>
+	</footer>
+
+	<!--scroll top-->
+	<a id="scroll-top">
+		<img src="img/scroll_top.png" alt="arrow">
+	</a>
+	<!--scroll top end-->
+
+	<script src="js/libs.min.js"></script>
+  <script src="js/common.js"></script>
+
+</body>
+</html>
